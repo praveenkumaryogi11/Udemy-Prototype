@@ -18,6 +18,10 @@ body {
     border-bottom: solid 1px;
     gap: 10px;
     align-items: center;
+    position: sticky;
+    top: 0%;
+    background-color: white;
+    z-index: 2;
 
 }
 
@@ -41,6 +45,7 @@ body {
     width: 100%;
     font-size: 16px;
     align-items: center;
+    background-color: transparent;
 
 
 }
@@ -55,7 +60,35 @@ body {
     gap: 20px;
     padding: 10px;
     align-items: center;
+    cursor: pointer;
 
+}
+
+/* my learning popup */
+.mylearning{
+    position: relative;
+    cursor: pointer;
+}
+
+.mylearning__popup{
+    position: absolute;
+    background-color: white;
+    border: solid 1px;
+    width: 250px;
+    padding: 20px;
+    top: 43px;
+    right: 0px;
+    border-radius: 10px;
+    display: none;
+
+}
+.mylearning:hover .mylearning__popup{
+    display: block;
+}
+
+.keep-shopping{
+    justify-self:center;
+    margin-top: 10px;
 }
 
 .categories {
@@ -65,6 +98,7 @@ body {
     align-items: center;
     border-bottom: solid black 1px;
     justify-content: space-around;
+    
 }
 
 .categories p {
@@ -75,8 +109,25 @@ body {
 }
 
 .sale-image img {
+    position: relative;
+
+}
+
+.sale-image img {
     width: 100%;
     height: 100%;
+}
+
+.sale-image__offer{
+
+    width: 400px;
+    background-color: white;
+    border: solid 1px;
+    padding: 20px;
+    position: absolute;
+    top: 200px;
+    left:160px;
+    z-index: 1;
 }
 
 .Recommended {
@@ -98,12 +149,13 @@ body {
 }
 
 .Course-card {
-    width: 350px;   
+    width: 350px;
 }
 
 .topics {
     padding: 10px;
     margin-top: 50px;
+    
 }
 
 .topics__container {
@@ -126,7 +178,7 @@ body {
 .popular {
     padding: 10px;
     margin-top: 50px;
-    
+
 
 
 }
@@ -140,25 +192,25 @@ body {
 
 
 }
-.footer{
+
+.footer {
     background-color: #D3D3D3;
-    padding: 10px
-   
-    color: black;
+    padding: 10px color: black;
 }
 
-.footer__one{
-   
+.footer__one {
+
     display: flex;
     gap: 10px;
 }
-.footer__one p{
-    margin: 20px ;
+
+.footer__one p {
+    margin: 20px;
 }
 
 .footer__two {
     align-items: center;
-    margin: 20px;
+    margin: 20 px;
     display: flex;
     justify-content: space-between;
 }
