@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
     <meta charset="UTF-8">
@@ -16,106 +16,112 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
         integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-
 </head>
 
 <body>
-    <!-- Navbar -->
     <div class="Navbar">
+        <div class="Navbar-s1">
 
-        <div class="Navbar__s1">
-            <h1 class="Navbar-s1__title">Udemy</h1>
+            <h1 class="Navbar__s1__title">Udemy</h1>
 
         </div>
-
-        <div class="Navbar__s2"><i class="fa-solid fa-magnifying-glass" style="color: #000000;"></i>
+        <div class="Navbar__s2">
+            <i class="fa-solid fa-magnifying-glass"></i>
             <input type="text" placeholder="search for anything here. Tech, Business, etc">
 
-
-        </div>  
+        </div>
         <div class="Navbar__s3">
             <p>Courses</p>
-            <!-- <p>My learning </p> -->
-             <div class="mylearning">
-                <p>My learning</p>
-                <div class="mylearning__popup">
-                    <p>You did not purchase anything yet </p>
-                    <h2 class="keep-shopping">Keep shopping</h2>
+
+            <div class="Mylearning">
+                <p>My Learning</p>
+                <div class="Mylearning__popup">
+                    <p>You did not Purchase anything yet</p>
+
                 </div>
+            </div>
+            <i class="fa-solid fa-cart-shopping"></i>
+            <i class="fa-solid fa-bell"></i>
+            <i class="fa-solid fa-user" class="img"></i>
 
-
-             </div>
-            <i class="fa-solid fa-cart-shopping" style="color: #000000;"></i>
-            <i class="fa-solid fa-bell" style="color: #000000;"></i>
-            <i class="fa-solid fa-user" style="color: #000000;"></i>
         </div>
-
-
+        <div class="Navbar__s4">
+            <i class="fa-solid fa-bars" style="color: #000000;"></i>
+        </div>
     </div>
+
     <!-- categories section-->
+
     <div class="categories">
+
         <p>Development</p>
         <p>Bussiness</p>
         <p>IT and Software</p>
         <p>Personal Development</p>
         <p>Design</p>
         <p>marketing</p>
-    </div>
 
+
+    </div>
     <!-- sale image section-->
+
     <div class="sale-image">
-        <img src="image/sale-image 2.png" alt="sale image">
+
+        <img src="image/sale-image 2.png" alt="">
         <div class="sale-image__offer">
-            <h1>Don't miss Udemy's flash sale – only 24 hours to save!</h1>
-            <p>Unlock courses starting at ₹499! A day to save, a lifetime to grow. </p>
+            <h2>Sale ends today</h2>
+            <p>Invest in yourself with courses as low as ₹449.</p>
         </div>
     </div>
     <!-- Recommended section-->
     <div class="Recommended">
-        <h1 class="Recommended__title">Recommended for you </h1>
-        <p> Pick the best fit</p>
+        <h1 class="Recommended__title">Recommended for you</h1>
+        <p>Pick the best fit</p>
         <div class="Recommended__container">
-            <div class="Course-card">
-                <img src="./image/c1 (1).jpg" alt="course image ">
+            <div class="course__card">
+                <img src="image/rec1 (1).jpg">
+                <h3>Basic to Advance programming with EMC </h3>
+                <p>Agnel John</p>
+                <p>4.5 ⭐⭐⭐⭐</p>
+                <p>499 <del>4999</del></p>
+
+            </div>
+            <div class="course__card">
+                <img src="image/rec1 (2).jpg">
+                <h3>web Development Bootcamp </h3>
+                <p>Colt Steele</p>
+                <p>4.5 ⭐⭐⭐⭐</p>
+                <p>499 <del>1999</del></p>
+
+            </div>
+            <div class="course__card">
+                <img src="image/p (4).jpg" alt="">
+                <h3>The Complete JavaScript Course 2025: From Zero to Expert!</h3>
+                <p>Dr. Angela Yu</p>
+                <p>3.5 ⭐⭐⭐</p>
+                <p>499 <del>4999</del></p>
+
+            </div>
+            <div class="course__card">
+                <img src="image/rec1 (4).jpg" alt="">
                 <h3>Python Data Visaulisation Materclass</h3>
-                <p>col Steele</p>
-                <p>4.9 ⭐⭐⭐⭐</p>
-                <p> 449 <del>1999</del></p>
+                <p>Maven Analytics</p>
+                <p>4.5 ⭐⭐⭐⭐</p>
+                <p>499 <del>3500</del></p>
 
             </div>
-            <div class="Course-card">
-                <img src="./image/c1 (2).jpg" alt="course image ">
-                <h3>web Development Bootcamp</h3>
-                <p>col Steele</p>
-                <p>4.9 ⭐⭐⭐⭐</p>
-                <p> 449 <del>1999</del></p>
 
-            </div>
-            <div class="Course-card">
-                <img src="./image/c1 (3).jpg" alt="course image ">
-                <h3>Basic to Advance programming with EMC</h3>
-                <p>col Steele</p>
-                <p>5.0 ⭐⭐⭐⭐⭐</p>
-                <p> 449 <del>1999</del></p>
 
-            </div>
-            <div class="Course-card">
-                <img src="./image/c1 (4).jpg" alt="course image ">
-                <h3>UI & UX Designing with Figma</h3>
-                <p>col Steele</p>
-                <p>3.9 ⭐⭐⭐</p>
-                <p> 449 <del>1999</del></p>
-
-            </div>
 
         </div>
     </div>
+
     <!-- Topic -->
 
-    <div class="topics">
+    <div class="Topics">
+        <h1 class="topics__title">Topics Recommended for you</h1>
 
-        <h1 class="topics__title">Topics Recommended</h1>
-        <div class="topics__container">
+        <div class="Topics__container">
             <p>website</p>
             <p>App Development</p>
             <p>Machine Learning</p>
@@ -126,107 +132,120 @@
             <p>Marketing</p>
             <p>SEO</p>
 
-
         </div>
-
-
     </div>
     <!-- popular section -->
+
     <div class="popular">
-        <h1 class="popular__title">Most popular </h1>
-        <p class="popular__subtitle"> Pick the best fit</p>
+        <h1>Most Popular</h1>
+        <p>Pick the best for you</p>
         <div class="popular__container">
-            <div class="Course-card">
-                <img src="./image/pp1 (4).jpg" alt="course image ">
-                <h3>Data Structures and Algorithms Specialization</h3>
-                <p>col Steele</p>
-                <p>4.9 ⭐⭐⭐⭐</p>
-                <p> 449 <del>1999</del></p>
+            <div class="course__card">
+                <img src="image/p (1).jpg" alt="">
+                <h3>Basic to Advance programming with EMC</h3>
+                <p>Agnel John</p>
+                <p>4.5 ⭐⭐⭐⭐</p>
+                <p>499 <del>4999</del></p>
 
             </div>
-            <div class="Course-card">
-                <img src="./image/pp1 (5).jpg" alt="course image ">
-                <h3>The Complete JavaScript Course 2025: From Zero to Expert!</h3>
-                <p>col Steele</p>
-                <p>4.9 ⭐⭐⭐⭐</p>
-                <p> 449 <del>1999</del></p>
+            <div class="course__card">
+                <img src="image/p (2).jpg" alt="">
+                <h3>UI & UX Designing with Figma </h3>
+                <p>Daniel Walter Scott</p>
+                <p>4.5 ⭐⭐⭐⭐</p>
+                <p>499 <del>2999</del></p>
 
             </div>
-            <div class="Course-card">
-                <img src="./image/pp1 (8).jpg" alt="course image ">
-                <h3>Java Programming and Software Engineering Fundamentals</h3>
-                <p>col Steele</p>
-                <p>5.0 ⭐⭐⭐⭐⭐</p>
-                <p> 449 <del>1999</del></p>
+            <div class="course__card">
+                <img src="image/p (3).jpg" alt="">
+                <h3>Learn JAVA Programming - Beginner to Master</h3>
+                <p>Abdul Bari</p>
+                <p>4.0 ⭐⭐⭐⭐ </p>
+                <p>499 <del>2999</del></p>
 
             </div>
-            <div class="Course-card">
-                <img src="./image/PP1(9).jpg" alt="course image ">
-                <h3>The Complete JavaScript Course 2025: From Zero to Expert!</h3>
-                <p>col Steele</p>
-                <p>3.9 ⭐⭐⭐</p>
-                <p> 449 <del>1999</del></p>
-
-            </div>
-            <div class="Course-card">
-                <img src="./image/c1 (1).jpg" alt="course image ">
-                <h3>Python Data Visaulisation Materclass</h3>
-                <p>col Steele</p>
-                <p>4.9 ⭐⭐⭐⭐</p>
-                <p> 449 <del>1999</del></p>
-
-            </div>
-            <div class="Course-card">
-                <img src="./image/c1 (2).jpg" alt="course image ">
+            <div class="course__card">
+                <img src="image/p (5).jpg" alt="">
                 <h3>web Development Bootcamp</h3>
                 <p>col Steele</p>
-                <p>4.9 ⭐⭐⭐⭐</p>
-                <p> 449 <del>1999</del></p>
+                <p>4.5 ⭐⭐⭐⭐</p>
+                <p>499 <del>999</del></p>
 
             </div>
-            <div class="Course-card">
-                <img src="./image/c1 (3).jpg" alt="course image ">
-                <h3>Basic to Advance programming with EMC</h3>
-                <p>col Steele</p>
-                <p>5.0 ⭐⭐⭐⭐⭐</p>
-                <p> 449 <del>1999</del></p>
+            <div class="course__card">
+
+                <img src="image/p (6).jpg" alt="">
+                <h3>The Complete Flutter Development Bootcamp with Dart</h3>
+                <p>Dr Angela</p>
+                <p>4.5 ⭐⭐⭐⭐</p>
+                <p>499 <del>4000</del></p>
 
             </div>
-            <div class="Course-card">
-                <img src="./image/c1 (4).jpg" alt="course image ">
-                <h3>UI & UX Designing with Figma</h3>
-                <p>col Steele</p>
-                <p>3.9 ⭐⭐⭐</p>
-                <p> 449 <del>1999</del></p>
+            <div class="course__card">
+                <img src="image/p (7).jpg" alt="">
+                <h3>JavaScript Basics and Core Concepts</h3>
+                <p>Vasile Vasluian</p>
+                <p>4.5 ⭐⭐⭐⭐</p>
+                <p>499 <del>999</del></p>
 
             </div>
+            <div class="course__card">
+                <img src="image/p (8).jpg" alt="">
+                <h3>Ultimate AWS Certified Solutions Architect Associate 2025</h3>
+                <p>Stephane Maarek</p>
+                <p>4.0 ⭐⭐⭐⭐</p>
+                <p>499 <del>2499</del></p>
+
+            </div>
+            <div class="course__card">
+                <img src="image/rec1 (3).jpg" alt="">
+                <h3>The Complete JavaScript Course 2025: From Zero to Expert!</h3>
+                <p>Dr. Angela Yu</p>
+                <p>4,5 ⭐⭐⭐⭐</p>
+                <p>499 <del>4999</del></p>
+            </div>
+
         </div>
-        <!-- footer section -->
-        <div class="footer">
-            <div class="footer__one">
-                <div class="footer__one__s1">
-                    <p>Udemy Bussiness</p>
-                    <p>Teach on Udemy</p>
-                    <p>Get the app</p>
-                    <p>About us</p>
-                    <p>Contact us</p>
-                </div>
-                <div class="footer__one__s2">
-                    <p>Careers</p>
-                    <p>Blog</p>
-                    <p>Help and Support</p>
-                    <p>Affiliate</p>
-                    <p>Investors</p>
 
-                </div>
+    </div>
+
+    <!-- footer section -->
+    <div class="footer">
+        <div class="footer-one">
+            <div class="footer-one__s1">
+                <p>Udemy Buisness</p>
+                <p>Tech on udemy</p>
+                <p>Get the App</p>
+                <p>Contact us</p>
+                <p>About us</p>
             </div>
-            <div class="footer__two">
-
-                <h1>Udemy</h1>
-                <p> &copy; Udemy, Inc</p>
-
+            <div class="footer-one__s2">
+                <p>carrer</p>
+                <p>blog</p>
+                <p>Help and Support</p>
+                <p>Affliate</p>
+                <p>Investors</p>
             </div>
+
+
         </div>
+        <div class="footer-two">
+            <h1>Udemy</h1>
+            <p>&copy; Udemy, inc</p>
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
 </body>
 
 </html>
