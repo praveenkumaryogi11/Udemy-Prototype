@@ -7,9 +7,9 @@ Modern UI: A clean and professional layout inspired by top learning platforms.
 Scalable Codebase: A strong foundation to support future dynamic features and interactivity.
 
 ## Clone the Repository
-git clone https://github.com/your-username/udemy-clone.git  
+https://github.com/praveenkumaryogi11/Udemy-Prototype.git
 ## Open in Your Browser
-Simply open the index.html file in your browser to view the project.
+https://praveenkumaryogi11.github.io/Udemy-Prototype/
 ## Built With
 HTML5 for structure.
 CSS3 for styling and responsiveness.
