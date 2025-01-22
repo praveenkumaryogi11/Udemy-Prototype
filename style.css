@@ -149,16 +149,14 @@ body {
 
 @keyframes zoom {
     0% {
-        transform: sacle(0) opacity: 0;
+        transform: scale(0);
+        opacity: 0;
     }
 
     100% {
-
-        transform: sacle(1);
+        transform: scale(1);
         opacity: 1;
-
     }
-
 }
 
 /* Recommended */
